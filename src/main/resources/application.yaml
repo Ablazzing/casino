@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/casino
+    username: casino_admin
+    password: 123456
+
+logging:
+  level:
+    org:
+      springframework:
+        jdbc:
+          core: TRACE
